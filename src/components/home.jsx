@@ -11,10 +11,6 @@ class Home extends Component {
 
     handleClick = e => {
         let {count, Tscore, names, storeTarget} = this.state;
-        //let count = this.state.count;
-        //let Tscore = this.state.Tscore;
-        //let names = this.state.names;
-        //let storeTarget = this.state.storeTarget;
 
         names = names.sort(() => Math.random() - 0.5);
 
